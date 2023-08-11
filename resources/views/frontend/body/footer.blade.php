@@ -55,7 +55,7 @@
 
     <!-- =========== Footer Copywrite Section START  =========== -->
 
-    <section class="border-t-emerald-100 py-3">
+    <section class="border-t-emerald-100 py-3" style="border-top: 1px solid #ffffff59">
         <div class="container mx-auto sm:w-1/2 md:w-2/3 lg:w-3/4">
 
             <div class="grid grid-cols-1 md:grid-cols-2 gap-8">

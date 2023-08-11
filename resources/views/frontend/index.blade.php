@@ -361,31 +361,35 @@
 
             <h2 class="text-[#333] font-semibold text-center lg:text-[32px] text-[22px] lg:py-16 py-10"> Awards Nominees </h2>
 
-            <div class="grid grid-cols-1 md:grid-cols-4 lg:grid-cols-4 gap-4 border lg:p-12 p-5 rounded-xl">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-4 border lg:p-12 p-5 rounded-xl">
 
                 <!-- Blog Content Item 1 -->
-                <div class="flex items-center bg-white col-span-2">
+                <div class="flex justify-between">
                     <a href="">
                         <img src="{{ asset('frontend/assets/images/dream/airbnb-superhost-badge-637x264-1.jpg') }}"
                             alt="Blog Image 1" class="rounded-t-lg max-w-full object-cover">
                     </a>
                 </div>
 
-                <!-- Blog Content Item 1 -->
-                <div class="flex items-center justify-center">
+             <div class="w-full flex items-center justify-between gap-5">
+
+                   <!-- Blog Content Item 1 -->
+                   <div class="">
                     <a href="">
                         <img src="{{ asset('frontend/assets/images/dream/Digital-Award-TRA-2022.png') }}"
-                            alt="Blog Image 1" class="max-w-full w-[192px] h-auto object-cover">
+                            alt="Blog Image 1" class="object-cover max-w-full">
                     </a>
                 </div>
 
                 <!-- Blog Content Item 1 -->
-                <div class="flex items-center justify-center bg-white">
+                <div class="">
                     <a href="">
                         <img src="{{ asset('frontend/assets/images/dream/Digital-Award-TRA-2022-1.png') }}"
-                            alt="Blog Image 1" class="max-w-full w-[192px] h-auto object-cover">
+                            alt="Blog Image 1" class="object-cover max-w-full">
                     </a>
                 </div>
+
+             </div>
 
             </div>
 
